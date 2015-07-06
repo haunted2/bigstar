@@ -1,0 +1,11 @@
+<?php
+
+/*Implement hook_fivestar_widget*/
+
+function bigstar_fivestar_widgets(){
+$widgets = array(
+drupal_get_path('module', 'bigstar') . '/widgets/bigstar/bigstar.css' => 'Bigstar',
+);
+return $widgets;
+}
+

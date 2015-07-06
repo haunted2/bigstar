@@ -1,0 +1,73 @@
+.fivestar-bigstar div.fivestar-widget-static .star {
+  width: 32px;
+  height: 32px;
+  background: url(star.png) no-repeat 0 0px;
+}
+
+.fivestar-bigstar div.fivestar-widget-static .star span.on {
+  background: url(star.png) no-repeat 0 -64px;
+}
+
+.fivestar-bigstar div.fivestar-widget-static .star span.off {
+  background: url(star.png) no-repeat 0 0;
+}
+
+/* Javascript Star Version */
+
+.fivestar-bigstar div.fivestar-widget .cancel,
+.fivestar-bigstar div.fivestar-widget .star {
+  width: 32px;
+  height: 32px;
+}
+.fivestar-bigstar div.fivestar-widget .cancel,
+.fivestar-bigstar div.fivestar-widget .cancel a {
+  background: url(cancel.png) no-repeat 0 0;
+}
+
+.fivestar-bigstar div.fivestar-widget .star,
+.fivestar-bigstar div.fivestar-widget .star a {
+  background: url(star.png) no-repeat 0 0;
+}
+
+.fivestar-bigstar div.fivestar-widget div.on a {
+  background-position: 0 -32px;
+}
+.fivestar-bigstar div.fivestar-widget div.hover a,
+.fivestar-bigstar div.rating div a:hover {
+  background-position: 0 -64px;
+}
+
+/*When used with the module halfstar*/
+
+.halfstar.fivestar-bigstar .fivestar-widget .star.odd,
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-odd {
+  width: 16px !important;
+}
+.halfstar.fivestar-bigstar .fivestar-widget .star.even,
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-even {
+  width: 16px !important;
+}
+.halfstar.fivestar-bigstar .fivestar-widget .star.even,
+.halfstar.fivestar-bigstar .fivestar-widget .star.even a,
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-even,
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-even a {
+  background-position: -16px 0 !important;
+}
+.halfstar.fivestar-bigstar .fivestar-widget .star.even.hover a,
+.halfstar.fivestar-bigstar .fivestar-widget .star.even a:hover,
+.halfstar.fivestar-bigstar .fivestar-widget .star.even.on.hover a,
+.halfstar.fivestar-bigstar .fivestar-widget .star.even.on a:hover {
+  background-position: -16px -64px !important;
+}
+.halfstar.fivestar-bigstar .fivestar-widget .star.even.on,
+.halfstar.fivestar-bigstar .fivestar-widget .star.even.on a {
+  background-position: -16px -32px !important;
+}
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-even .on,
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-even .on a {
+  background-position: -16px -32px !important;
+}
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-even .off,
+.halfstar.fivestar-bigstar div.fivestar-widget-static .star-even .off a {
+  background-position: -16px 0 !important;
+}

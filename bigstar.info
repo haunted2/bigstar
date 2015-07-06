@@ -1,0 +1,4 @@
+name = Big Star
+core = 7.x
+description = A new fivestar widget with big stars
+dependencies[] = fivestar
